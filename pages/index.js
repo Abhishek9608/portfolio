@@ -1,3 +1,8 @@
-const Index = () => <div>Welcome to the home page</div>;
+import Layout from "../components/Layout";
 
-export default Index;
+const home = () => (
+  <Layout title="Home">
+    <h1>welcome to the home page</h1>
+  </Layout>
+);
+export default home;
